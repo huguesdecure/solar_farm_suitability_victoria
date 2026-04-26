@@ -1,0 +1,28 @@
+# Data files - too large for GitHub
+*.tif
+*.tiff
+*.adf
+*.geojson
+*.shp
+*.shx
+*.dbf
+*.prj
+*.cpg
+*.qpj
+
+# QGIS project files (contain local paths)
+*.qgs
+*.qgz
+*.qgs~
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Folders to ignore
+processed data/
+raw data/
+template/
+analysis/
+intermediate/
