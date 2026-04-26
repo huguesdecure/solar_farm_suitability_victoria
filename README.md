@@ -220,14 +220,12 @@ Exclusion zones align with CAPAD 2022 protected areas and Victorian planning zon
 ## Repository Structure
 
 ```
-.
-├── README.md                          # this file
-├── outputs/
+─ outputs/
 │   ├── vic_solar_farm_suitability.png # final map (PNG)
 │   └── vic_solar_farm_suitability.pdf # final map (A3 PDF)
-├── notes/
-│   └── README_NOTES.md                # working log — datasets, decisions, processing
+├── notes/             # working log — datasets, decisions, processing
 └── data/                              # processed rasters (large files excluded via .gitignore)
+└──README
 ```
 
 Raw datasets are not included in the repository — see the Data Sources table above for download links.
